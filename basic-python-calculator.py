@@ -3,8 +3,6 @@ import parser
 from math import factorial
 
 root = Tk()
-#root.geometry('270x320')
-#root.minsize(width=200, height=200)
 root.config(bg ='black')
 root.title('Calculator')
 
@@ -59,7 +57,7 @@ def fact():
 #---------------------DESIGN-----------------------
 
 
-display = Entry(root,width=45)
+display = Entry(root,width=20, font=('Arial', 26) )
 display.grid(row=1, columnspan= 6,sticky=NSEW)
 
 Button(root,text="1",command = lambda:get_variables(1),bg="white",width=5,height=3,font="bold").grid(row=2,column=0,sticky=NSEW)
