@@ -20,7 +20,7 @@ def actual_time():
     alarm(set_alarm_timer)
 
 
-#----------------------------------------------------
+
 clock = Tk()
 
 clock.title("Alarm Clock")
@@ -46,7 +46,6 @@ sec_label.place(x=340,y=80,width=100,height=100)
 sec_lbl = Label(clock,text="SECOND",font=("Arial",10,"bold"),bg="#99004d",fg="white")
 sec_lbl.place(x=340,y=190,width=100,height=50)
 
-#time_format=Label(clock, text= "Enter time in 24 hour format!", fg="red",bg="black",font="Arial").place(x=60,y=120)
 
 Label(clock,text = "Hour",font=60,bg="#ffece6",fg="#cc3300",width=5,height=2).place(x = 150,y = 280)
 Label(clock,text = "Min",font=60,bg="#ffece6",fg="#cc3300",width=5,height=2).place(x = 220, y = 280)
@@ -66,11 +65,3 @@ secTime = Entry(clock,textvariable = sec,bg = "#ffc6b3",width = 10).place(x=290,
 submit = Button(clock,text = "Set Alarm",fg="white",bg="#206040",width = 15,height = 2,font=("Arial",10,"bold"),command = actual_time).place(x =220,y=400)
 
 clock.mainloop()
-
-
-#-#009999-mavi tonu
-#-#993399-mor tonu
-#-#339966-yesil tonu
-#-#99004d-pembe-kırmızı
-#-#ff9900-sarı-turuncu
-#-#33334d-koyu gri
