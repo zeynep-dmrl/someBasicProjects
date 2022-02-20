@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
+
+        <title>Candy Crush</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js" charset="utf-8"></script>
+
+        
+    </head>
+    <body>
+        <button class="btn btn1" onclick="playPause();">music</button> 
+        <div class="score-board">
+			<h3>score</h3>
+			<h1 id="score">0</h1>
+		</div>
+        <div class="grid"></div>
+
+        <script type="text/javascript">
+            var audio = new Audio("sounds/candy-crush-jelly-saga.mp3");
+            function playPause(){
+                if(audio.paused){audio.play();}
+                else{ audio.pause();}
+            }
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
