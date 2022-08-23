@@ -7,7 +7,7 @@ Python dilinde yapılmış basit düzeyde projeler
 
 ![calculator](https://github.com/zeynep-dmrl/beginnerPythonProjects/blob/main/images/calculator_img.PNG)
 
-#beginnerJavascriptProjects
+# beginnerJavascriptProjects
 
 Javascript dilinde yapılmış basit düzeyde projeler
 
