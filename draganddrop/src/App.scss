@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Indie+Flower&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courgette', cursive;
+    font-family: 'Indie Flower', cursive;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    line-height: 1.5;
+}
+
+.header{
+    font-size: x-large;
+    text-shadow: 2px 1px black;
+    margin-bottom: 20px;
+}
+
+.table {
+    display: flex;
+    align-items: flex-start;
+}
+
+.table>.section {
+    width: 400px;
+    // background-color: #26325f;
+    padding: 10px;
+    border-radius: 10px;
+
+    &~& {
+        margin-left: 10px;
+    }
+}
+
+.table>.section>.title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 10px 0 20px;
+    text-decoration: underline;
+
+}
+
+.table>.section>.context {
+    &>*~* {
+        margin-top: 10px;
+    }
+
+}
+
+.btn-add {
+    background-color: #f4f7fa;
+    padding: 2px 4px;
+    border-radius: 13px;
+    border: 2px solid #c7c9cc;
+}
+
+.card {
+    padding: 30px;
+    background-color: #f4f7fa;
+    border: 1px solid #c7c9cc;
+    border-radius: 10px;
+    font-size: large;
+}
+.btn-new{
+    margin-left: 5px; 
+    border-radius: 3px;
+    padding:2px;
+    background-color:transparent; 
+    border-style:groove; 
+    border: 2px solid #c7c9cc;
+    font-size: medium;
+}
+input[type="text"]{
+    padding: 2px; 
+    border-radius:3px;
+    border-color:transparent;
+    font-size: medium;
+}
